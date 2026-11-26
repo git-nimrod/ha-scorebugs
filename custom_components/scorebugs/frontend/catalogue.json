@@ -1,0 +1,4984 @@
+{
+  "schema_version": 1,
+  "about": "Broadcast-style scorebugs. Each is drawn from scratch after a real broadcast's look; no network logos or wordmarks are drawn. The bug files are bugs/<id>.js. networks: the networks (plain names) that show this look today, used when a widget picks bug: network; leagues: the leagues it is matched to for that. A bug with tv is drawn with that old-TV picture by default (soft = standard-definition blur and scanlines, vhs = also colour bleed); the widget's bug_tv option overrides it. dresses: the playoff looks a bug has (playoffs, conf-finals, finals); it switches by itself from the game's season and round, or the widget's bug_dress picks one. postseason: a tournament's own look, matched to a network only for postseason games. event_logos: tournaments' own logos, loaded at display time from Wikimedia (nothing stored), matched on ESPN's event name per sport.",
+  "bugs": [
+    {
+      "id": "nfl-floating-25",
+      "label": "Team boxes '25",
+      "era": "2025",
+      "after": "NFL Sunday national package, 2025",
+      "sports": [
+        "football"
+      ],
+      "default_for": [
+        "NFL",
+        "*"
+      ],
+      "networks": [
+        "FOX"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "nfl-blocks-25",
+      "label": "Team blocks '25",
+      "era": "2025",
+      "after": "NFL Sunday regional package, 2025",
+      "sports": [
+        "football",
+        "basketball",
+        "hockey",
+        "soccer",
+        "baseball"
+      ],
+      "default_for": [
+        "CFL"
+      ],
+      "networks": [
+        "CBS"
+      ],
+      "leagues": [
+        "NFL",
+        "CFL"
+      ]
+    },
+    {
+      "id": "nfl-medallion-26",
+      "label": "Medallion '26",
+      "era": "2026",
+      "after": "NFL Sunday night package, 2026",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "NBC"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "nfl-segments-25",
+      "label": "Segments '25",
+      "era": "2025",
+      "after": "NFL Monday night package, 2023-2025",
+      "sports": [
+        "football"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "possession-bar-25",
+      "label": "Possession colour '25",
+      "era": "2025",
+      "after": "College football Saturday package, 2025",
+      "sports": [
+        "football"
+      ],
+      "default_for": [
+        "NCAAF"
+      ],
+      "networks": [
+        "ESPN",
+        "ABC"
+      ],
+      "leagues": [
+        "NCAAF"
+      ],
+      "dresses": [
+        "regular",
+        "playoffs"
+      ]
+    },
+    {
+      "id": "box-94",
+      "label": "Box '94",
+      "era": "1994",
+      "after": "The first always-on score box, NFL 1994 (NHL from 1995)",
+      "sports": [
+        "football",
+        "hockey"
+      ],
+      "tv": "soft",
+      "default_for": []
+    },
+    {
+      "id": "nba-panels-25",
+      "label": "Light & dark panels '25",
+      "era": "2025",
+      "after": "NBA weeknight national package, 2025-26",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [
+        "WNBA"
+      ],
+      "networks": [
+        "NBC"
+      ],
+      "leagues": [
+        "NBA",
+        "WNBA"
+      ]
+    },
+    {
+      "id": "nba-gilt-25",
+      "label": "Panel bar '25",
+      "era": "2025",
+      "after": "NBA national cable package, 2024-25 on: season, playoffs, silver conference finals, gold Finals",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [
+        "NBA",
+        "basketball"
+      ],
+      "networks": [
+        "ESPN",
+        "ABC"
+      ],
+      "leagues": [
+        "NBA"
+      ],
+      "dresses": [
+        "regular",
+        "playoffs",
+        "conf-finals",
+        "finals"
+      ],
+      "theme": "ESPN NBA 2022-25"
+    },
+    {
+      "id": "nba-stack-25",
+      "label": "Stacked box '25",
+      "era": "2025",
+      "after": "NBA streaming package, 2025-26",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "networks": [
+        "PRIME"
+      ],
+      "leagues": [
+        "NBA"
+      ]
+    },
+    {
+      "id": "nba-box-98",
+      "label": "Box '98",
+      "era": "1998",
+      "after": "NBA national broadcast package, 1996-98",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "tv": "soft"
+    },
+    {
+      "id": "nba-medal-03",
+      "label": "Medallion '03",
+      "era": "2003",
+      "after": "NBA national cable package, 2002-04",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "tv": "soft"
+    },
+    {
+      "id": "nhl-sog-25",
+      "label": "Shots box '25",
+      "era": "2025",
+      "after": "NHL national cable package, 2021 on",
+      "sports": [
+        "hockey"
+      ],
+      "default_for": [
+        "NHL",
+        "hockey"
+      ],
+      "networks": [
+        "TNT"
+      ],
+      "leagues": [
+        "NHL"
+      ],
+      "dresses": [
+        "regular",
+        "playoffs",
+        "finals"
+      ]
+    },
+    {
+      "id": "nhl-cup-25",
+      "label": "Smoked glass '25",
+      "era": "2025",
+      "after": "NHL national sports-network package, 2021 on",
+      "sports": [
+        "hockey"
+      ],
+      "default_for": [],
+      "networks": [
+        "ESPN",
+        "ABC"
+      ],
+      "leagues": [
+        "NHL"
+      ],
+      "dresses": [
+        "regular",
+        "playoffs"
+      ]
+    },
+    {
+      "id": "mlb-bases-25",
+      "label": "Bases box '25",
+      "era": "2025",
+      "after": "MLB Saturday national package, 2024 on; its October look from the 2026 NLCS",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [
+        "MLB",
+        "baseball"
+      ],
+      "networks": [
+        "FOX"
+      ],
+      "leagues": [
+        "MLB"
+      ],
+      "dresses": [
+        "regular",
+        "playoffs"
+      ]
+    },
+    {
+      "id": "mlb-card-26",
+      "label": "Rounded card '26",
+      "era": "2026",
+      "after": "MLB streaming special events, 2026",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "NETFLIX"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-glass-25",
+      "label": "Dark glass '25",
+      "era": "2025",
+      "after": "MLB Friday night streaming package, 2022-25",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "APPLE"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-box-99",
+      "label": "Diamond box '99",
+      "era": "1999",
+      "after": "MLB Saturday national package, 1998-2000",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "tv": "soft"
+    },
+    {
+      "id": "cfb-cutout-25",
+      "label": "Cut-out logos '25",
+      "era": "2025",
+      "after": "College football Saturday national package (noon window), 2025",
+      "sports": [
+        "football"
+      ],
+      "leagues": [
+        "NCAAF"
+      ],
+      "networks": [
+        "FOX"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "cfb-centre-25",
+      "label": "Centre clock '25",
+      "era": "2025",
+      "after": "College football and basketball national package with the clock between the teams, 2025-26",
+      "sports": [
+        "football",
+        "basketball"
+      ],
+      "leagues": [
+        "NCAAF",
+        "NCAAM",
+        "NCAAW"
+      ],
+      "networks": [
+        "NBC"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "cfb-longbar-25",
+      "label": "Long bar '25",
+      "era": "2025",
+      "after": "College football afternoon national package, 2025",
+      "sports": [
+        "football"
+      ],
+      "leagues": [
+        "NCAAF"
+      ],
+      "networks": [
+        "CBS"
+      ],
+      "default_for": [],
+      "theme": "CBS flat bars 2014-23"
+    },
+    {
+      "id": "cbb-pill-25",
+      "label": "Pill bar '25",
+      "era": "2025",
+      "after": "College basketball national cable package, 2025-26",
+      "sports": [
+        "basketball"
+      ],
+      "leagues": [
+        "NCAAM",
+        "NCAAW"
+      ],
+      "networks": [
+        "TNT"
+      ],
+      "default_for": [
+        "NCAAM",
+        "NCAAW"
+      ],
+      "theme": "TNT capsule '25"
+    },
+    {
+      "id": "cbb-tourney-26",
+      "label": "Tournament bar '26",
+      "era": "2026",
+      "after": "Men's college basketball tournament, shared across its networks, 2026",
+      "sports": [
+        "basketball"
+      ],
+      "leagues": [
+        "NCAAM"
+      ],
+      "networks": [
+        "CBS",
+        "TNT"
+      ],
+      "postseason": true,
+      "default_for": []
+    },
+    {
+      "id": "soc-ucl-25",
+      "label": "Starball bar '25",
+      "era": "2025",
+      "after": "European club competition world feed, 2025-26, with the US network's 2026 knockout-round corner",
+      "sports": [
+        "soccer"
+      ],
+      "leagues": [
+        "CL"
+      ],
+      "networks": [
+        "CBS"
+      ],
+      "dresses": [
+        "regular",
+        "playoffs",
+        "conf-finals",
+        "finals"
+      ],
+      "default_for": [
+        "CL"
+      ]
+    },
+    {
+      "id": "soc-crest-25",
+      "label": "Crest tags '25",
+      "era": "2025",
+      "after": "English top-flight world feed, 2025-26",
+      "sports": [
+        "soccer"
+      ],
+      "leagues": [
+        "EPL"
+      ],
+      "default_for": [
+        "EPL"
+      ]
+    },
+    {
+      "id": "soc-bracket-25",
+      "label": "Stadium block '25",
+      "era": "2025",
+      "after": "German top-flight world feed, 2025-26",
+      "sports": [
+        "soccer"
+      ],
+      "leagues": [
+        "BUND"
+      ],
+      "default_for": [
+        "BUND",
+        "soccer"
+      ]
+    },
+    {
+      "id": "soc-tab-25",
+      "label": "Tabbed box '25",
+      "era": "2025",
+      "after": "US men's league streaming package, 2025 (its final)",
+      "sports": [
+        "soccer"
+      ],
+      "leagues": [
+        "MLS"
+      ],
+      "networks": [
+        "APPLE"
+      ],
+      "dresses": [
+        "regular",
+        "playoffs",
+        "finals"
+      ],
+      "default_for": [
+        "MLS"
+      ]
+    },
+    {
+      "id": "soc-strip-25",
+      "label": "Title strip '25",
+      "era": "2025",
+      "after": "US women's league national package, 2025 (its championship)",
+      "sports": [
+        "soccer"
+      ],
+      "leagues": [
+        "NWSL"
+      ],
+      "networks": [
+        "CBS"
+      ],
+      "dresses": [
+        "regular",
+        "playoffs",
+        "finals"
+      ],
+      "default_for": [
+        "NWSL"
+      ]
+    },
+    {
+      "id": "soc-cup-26",
+      "label": "Cup ribbon '26",
+      "era": "2026",
+      "after": "World tournament world feed, 2026",
+      "sports": [
+        "soccer"
+      ],
+      "leagues": [
+        "WC",
+        "WWC"
+      ],
+      "default_for": [
+        "WC",
+        "WWC"
+      ]
+    },
+    {
+      "id": "soc-l1-24",
+      "label": "Blue tile stack '24",
+      "era": "2024",
+      "after": "French top-flight world feed, 2024-25 on",
+      "sports": [
+        "soccer"
+      ],
+      "leagues": [
+        "LIG1"
+      ],
+      "networks": [],
+      "default_for": [
+        "LIG1"
+      ]
+    },
+    {
+      "id": "soc-laliga-25",
+      "label": "Coral card '25",
+      "era": "2025",
+      "after": "Spanish top-flight world feed, 2025-26",
+      "sports": [
+        "soccer"
+      ],
+      "leagues": [
+        "LIGA"
+      ],
+      "networks": [],
+      "default_for": [
+        "LIGA"
+      ]
+    },
+    {
+      "id": "soc-seriea-24",
+      "label": "Navy slants '24",
+      "era": "2024",
+      "after": "Italian top-flight world feed, 2024 on",
+      "sports": [
+        "soccer"
+      ],
+      "leagues": [
+        "SERA"
+      ],
+      "networks": [],
+      "default_for": [
+        "SERA"
+      ]
+    },
+    {
+      "id": "soc-efl-24",
+      "label": "Four tiles '24",
+      "era": "2024",
+      "after": "English second-tier UK broadcaster's bug, 2024-25",
+      "sports": [
+        "soccer"
+      ],
+      "leagues": [
+        "EFL"
+      ],
+      "networks": [],
+      "default_for": [
+        "EFL"
+      ],
+      "theme": "Sky EFL 2024-25"
+    },
+    {
+      "id": "soc-efldark-24",
+      "label": "Four tiles dark '24",
+      "era": "2024",
+      "after": "English second-tier UK broadcaster's bug, 2024-25 (dark score and clock)",
+      "sports": [
+        "soccer"
+      ],
+      "leagues": [
+        "EFL"
+      ],
+      "networks": [],
+      "default_for": [],
+      "theme": "Sky EFL 2024-25"
+    },
+    {
+      "id": "soc-facup-25",
+      "label": "Red clock tab '25",
+      "era": "2025",
+      "after": "English national cup world feed, 2025-26",
+      "sports": [
+        "soccer"
+      ],
+      "leagues": [
+        "FACUP"
+      ],
+      "networks": [],
+      "default_for": [
+        "FACUP"
+      ]
+    },
+    {
+      "id": "soc-spfl-24",
+      "label": "Logo slabs '24",
+      "era": "2024",
+      "after": "Scottish top-flight world feed, 2024-25",
+      "sports": [
+        "soccer"
+      ],
+      "leagues": [
+        "SPFL"
+      ],
+      "networks": [],
+      "default_for": [
+        "SPFL"
+      ]
+    },
+    {
+      "id": "soc-ered-25",
+      "label": "Fade slabs '25",
+      "era": "2025",
+      "after": "Dutch top-flight broadcast, 2025-26",
+      "sports": [
+        "soccer"
+      ],
+      "leagues": [
+        "ERED"
+      ],
+      "networks": [],
+      "default_for": [
+        "ERED"
+      ]
+    },
+    {
+      "id": "soc-ligapt-25",
+      "label": "Navy stack '25",
+      "era": "2025",
+      "after": "Portuguese top-flight world feed, 2025-26",
+      "sports": [
+        "soccer"
+      ],
+      "leagues": [
+        "PORT"
+      ],
+      "networks": [],
+      "default_for": [
+        "PORT"
+      ]
+    },
+    {
+      "id": "soc-uel-24",
+      "label": "Orange line bar '24",
+      "era": "2024",
+      "after": "European second club competition world feed, 2024 on",
+      "sports": [
+        "soccer"
+      ],
+      "leagues": [
+        "UEL"
+      ],
+      "networks": [],
+      "default_for": [
+        "UEL"
+      ],
+      "theme": "UEFA world feed 2024-"
+    },
+    {
+      "id": "soc-uecl-24",
+      "label": "Green line bar '24",
+      "era": "2024",
+      "after": "European third club competition world feed, 2024 on",
+      "sports": [
+        "soccer"
+      ],
+      "leagues": [
+        "UECL"
+      ],
+      "networks": [],
+      "default_for": [
+        "UECL"
+      ],
+      "theme": "UEFA world feed 2024-"
+    },
+    {
+      "id": "soc-globo-25",
+      "label": "Big figures '25",
+      "era": "2025",
+      "after": "Brazilian top-flight free-to-air broadcast, 2025 on",
+      "sports": [
+        "soccer"
+      ],
+      "leagues": [
+        "BRA"
+      ],
+      "networks": [],
+      "default_for": [
+        "BRA"
+      ]
+    },
+    {
+      "id": "soc-cbs-26",
+      "label": "Header bar '26",
+      "era": "2026",
+      "after": "Mexican top-flight US broadcast, 2026",
+      "sports": [
+        "soccer"
+      ],
+      "leagues": [
+        "LIGAMX"
+      ],
+      "networks": [
+        "CBS"
+      ],
+      "default_for": [
+        "LIGAMX"
+      ]
+    },
+    {
+      "id": "nfl-flatbar-26",
+      "label": "Flat bar '26",
+      "era": "2026",
+      "after": "NFL Monday night package, 2026",
+      "sports": [
+        "football"
+      ],
+      "leagues": [
+        "NFL"
+      ],
+      "networks": [
+        "ESPN",
+        "ABC"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "cbb-metal-25",
+      "label": "Metal panels '25",
+      "era": "2025",
+      "after": "College basketball national cable package (sports network), 2025-26",
+      "sports": [
+        "basketball"
+      ],
+      "leagues": [
+        "NCAAM",
+        "NCAAW"
+      ],
+      "networks": [
+        "ESPN",
+        "ABC"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "mlb-tbs-26",
+      "label": "Black box '26",
+      "era": "2026",
+      "after": "MLB postseason cable package, 2026",
+      "sports": [
+        "baseball"
+      ],
+      "leagues": [
+        "MLB"
+      ],
+      "networks": [
+        "TNT"
+      ],
+      "postseason": true,
+      "dresses": [
+        "regular",
+        "playoffs"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "golf-handboard-26",
+      "label": "Hand board '26",
+      "era": "2026",
+      "after": "The hand-operated leaders board at a golf major",
+      "sports": [
+        "golf"
+      ],
+      "leagues": [
+        "PGA"
+      ],
+      "events": [
+        "Masters Tournament"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "golf-goldrows-25",
+      "label": "Gold rows '25",
+      "era": "2025",
+      "after": "A links major's leaderboard on its US broadcast",
+      "sports": [
+        "golf"
+      ],
+      "leagues": [
+        "PGA"
+      ],
+      "events": [
+        "The Open"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "golf-card-25",
+      "label": "Leaderboard and card '25",
+      "era": "2025",
+      "after": "A US golf network's tour leaderboard with the player panel",
+      "sports": [
+        "golf"
+      ],
+      "leagues": [
+        "PGA",
+        "LPGA"
+      ],
+      "networks": [
+        "NBC"
+      ],
+      "default_for": [
+        "PGA",
+        "LPGA",
+        "golf"
+      ]
+    },
+    {
+      "id": "golf-nbc-10",
+      "label": "Chrome board '10",
+      "era": "2010",
+      "after": "A US network's national open leaderboard, 2010: chrome rows with orange scores",
+      "sports": [
+        "golf"
+      ],
+      "leagues": [
+        "PGA"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "golf-gc-23",
+      "label": "Scorecard bar '23",
+      "era": "2023",
+      "after": "A US golf channel's women's tour coverage, 2023: player scorecard bar and corner board",
+      "sports": [
+        "golf"
+      ],
+      "leagues": [
+        "LPGA",
+        "PGA"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "golf-cbs-24",
+      "label": "Corner board '24",
+      "era": "2024",
+      "after": "A US network's tour coverage, 2024: a small corner leaderboard",
+      "sports": [
+        "golf"
+      ],
+      "leagues": [
+        "PGA",
+        "LPGA"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "golf-liv-24",
+      "label": "Pylon '24",
+      "era": "2024",
+      "after": "A team golf league's own feed, 2024: the leaderboard pylon",
+      "sports": [
+        "golf"
+      ],
+      "leagues": [
+        "LIV"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "golf-fox-25",
+      "label": "Green pylon '25",
+      "era": "2025",
+      "after": "A team golf league on a US network, 2025: green pylon with the leader's card",
+      "sports": [
+        "golf"
+      ],
+      "leagues": [
+        "LIV"
+      ],
+      "networks": [
+        "FOX"
+      ],
+      "default_for": [
+        "LIV"
+      ]
+    },
+    {
+      "id": "race-tower-25",
+      "label": "Timing tower '25",
+      "era": "2025",
+      "after": "Formula 1 world feed timing tower, 2025",
+      "sports": [
+        "racing"
+      ],
+      "leagues": [
+        "F1"
+      ],
+      "default_for": [
+        "F1",
+        "racing"
+      ]
+    },
+    {
+      "id": "race-f1-97",
+      "label": "Top three '97",
+      "era": "1997",
+      "after": "The open-wheel world feed of 1997: the first three on a grey band",
+      "sports": [
+        "racing"
+      ],
+      "leagues": [
+        "F1"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "race-f1-16",
+      "label": "Battle box '16",
+      "era": "2016",
+      "after": "The open-wheel world feed of 2015-2017: lap tab and battle box",
+      "sports": [
+        "racing"
+      ],
+      "leagues": [
+        "F1"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "race-f1-19",
+      "label": "Timing tower '19",
+      "era": "2019",
+      "after": "The open-wheel world feed of 2018-2021: the narrow timing tower",
+      "sports": [
+        "racing"
+      ],
+      "leagues": [
+        "F1"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "race-fox-01",
+      "label": "Top ticker '01",
+      "era": "2001",
+      "after": "A US network's stock-car ticker, 2001: the running order on a black band",
+      "sports": [
+        "racing"
+      ],
+      "leagues": [
+        "NASCAR"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "race-nbc-04",
+      "label": "Top ticker '04",
+      "era": "2004",
+      "after": "A US network's stock-car ticker, 2004: lap tab and glass ticker with number discs",
+      "sports": [
+        "racing"
+      ],
+      "leagues": [
+        "NASCAR"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "race-espn-10",
+      "label": "Top ticker '10",
+      "era": "2010",
+      "after": "A US network's stock-car ticker, 2007-2014: chequered band, on-board tab and running order",
+      "sports": [
+        "racing"
+      ],
+      "leagues": [
+        "NASCAR"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "race-nbc-20",
+      "label": "Ticker and logo box '20",
+      "era": "2020",
+      "after": "A US network's stock-car ticker, 2017-2020: logo box, race head and running order",
+      "sports": [
+        "racing"
+      ],
+      "leagues": [
+        "NASCAR"
+      ],
+      "default_for": [
+        "NASCAR"
+      ]
+    },
+    {
+      "id": "race-nbc-21",
+      "label": "Teal tower '21",
+      "era": "2021",
+      "after": "A US network's timing tower for the open-wheel series, 2019-2021",
+      "sports": [
+        "racing"
+      ],
+      "leagues": [
+        "IRL"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "race-fox-25",
+      "label": "Photo tower '25",
+      "era": "2025",
+      "after": "A US network's timing tower for the open-wheel series, 2025: photo cards for the top five",
+      "sports": [
+        "racing"
+      ],
+      "leagues": [
+        "IRL"
+      ],
+      "networks": [
+        "FOX"
+      ],
+      "default_for": [
+        "IRL"
+      ]
+    },
+    {
+      "id": "tennis-slam-26",
+      "label": "Slam box '26",
+      "era": "2026",
+      "after": "Tennis world-feed score boxes, each tournament in its colours (Melbourne, Paris, Wimbledon, New York, the Finals, the cup)",
+      "sports": [
+        "tennis"
+      ],
+      "leagues": [
+        "ATP",
+        "WTA"
+      ],
+      "default_for": [
+        "ATP",
+        "WTA",
+        "tennis"
+      ]
+    },
+    {
+      "id": "tennis-ao-09",
+      "label": "Orange box '09",
+      "era": "2009",
+      "after": "A summer slam world feed, 2009: orange name tiles and teal set cells",
+      "sports": [
+        "tennis"
+      ],
+      "leagues": [
+        "ATP",
+        "WTA"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "tennis-ao-17",
+      "label": "Black tiles '17",
+      "era": "2017",
+      "after": "A summer slam world feed, 2017: black tiles with flags, one tile per set",
+      "sports": [
+        "tennis"
+      ],
+      "leagues": [
+        "ATP",
+        "WTA"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "tennis-espn-18",
+      "label": "Blue rows '18",
+      "era": "2018",
+      "after": "A late-summer slam on its US network, 2018: two blue rows with seed and country",
+      "sports": [
+        "tennis"
+      ],
+      "leagues": [
+        "ATP",
+        "WTA"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "tennis-atp-24",
+      "label": "Lime box '24",
+      "era": "2024",
+      "after": "The men's tour's own streaming feed, 2024: navy box with lime score tiles",
+      "sports": [
+        "tennis"
+      ],
+      "leagues": [
+        "ATP"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "tennis-wta-25",
+      "label": "Green glass '25",
+      "era": "2025",
+      "after": "The women's tour world feed, 2025: dark glass with green set columns",
+      "sports": [
+        "tennis"
+      ],
+      "leagues": [
+        "WTA"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "mma-bar-26",
+      "label": "Fight bar (plain)",
+      "era": "2026",
+      "after": "Not a broadcast copy yet: a plain fight bug until a frame is found",
+      "sports": [
+        "mma"
+      ],
+      "leagues": [
+        "UFC"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "afl-bar-26",
+      "label": "Footy bar '26",
+      "era": "2026",
+      "after": "AFL on its free-to-air network, 2026",
+      "sports": [
+        "australian-football"
+      ],
+      "leagues": [
+        "AFL"
+      ],
+      "networks": [
+        "SEVEN",
+        "7"
+      ],
+      "default_for": [
+        "AFL",
+        "australian-football"
+      ]
+    },
+    {
+      "id": "afl-dark-25",
+      "label": "Night bar '25",
+      "era": "2025",
+      "after": "AFL on the pay-TV football channel, 2025",
+      "sports": [
+        "australian-football"
+      ],
+      "leagues": [
+        "AFL"
+      ],
+      "networks": [
+        "FOX FOOTY",
+        "KAYO"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "cricket-strip-26",
+      "label": "Innings strip '26",
+      "era": "2026",
+      "after": "T20 league on its Indian broadcaster, 2026",
+      "sports": [
+        "cricket"
+      ],
+      "leagues": [
+        "IPL",
+        "BBL"
+      ],
+      "default_for": [
+        "IPL",
+        "BBL",
+        "cricket"
+      ]
+    },
+    {
+      "id": "vb-sets-26",
+      "label": "Set box (plain)",
+      "era": "2026",
+      "after": "Not a broadcast copy yet: a plain volleyball box until a frame is found",
+      "sports": [
+        "volleyball"
+      ],
+      "leagues": [
+        "NCAAVB",
+        "NCAAVBW"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "nfl-chrome-08",
+      "label": "Chrome bar '08",
+      "era": "2008",
+      "after": "NFL Monday night package, 2008-2011",
+      "sports": [
+        "football"
+      ],
+      "tv": "soft",
+      "default_for": [],
+      "theme": "ESPN Monday night chrome"
+    },
+    {
+      "id": "nfl-neon-17",
+      "label": "Neon bar '17",
+      "era": "2017",
+      "after": "Monday Night Football on ESPN, 2017-2022",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "ESPN"
+      ],
+      "leagues": [
+        "NFL"
+      ],
+      "theme": "ESPN Monday night 2016-22"
+    },
+    {
+      "id": "nfl-goldbox-02",
+      "label": "Gold box '02",
+      "era": "2002",
+      "after": "NFL Sunday afternoon package, about 2001-2003",
+      "sports": [
+        "football"
+      ],
+      "tv": "soft",
+      "default_for": []
+    },
+    {
+      "id": "nfl-round-06",
+      "label": "Round bar '06",
+      "era": "2006",
+      "after": "NFL Sunday afternoon package, 2006-2011",
+      "sports": [
+        "football"
+      ],
+      "tv": "soft",
+      "default_for": []
+    },
+    {
+      "id": "nfl-foxbox-03",
+      "label": "Box '03",
+      "era": "2003",
+      "after": "NFL on FOX, about 2000-2005",
+      "sports": [
+        "football"
+      ],
+      "tv": "soft",
+      "default_for": [],
+      "networks": [
+        "FOX"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "nfl-silver-06",
+      "label": "Silver bar '06",
+      "era": "2006",
+      "after": "NFL Sunday night package, about 2006-2011",
+      "sports": [
+        "football"
+      ],
+      "tv": "soft",
+      "default_for": []
+    },
+    {
+      "id": "nfl-flat-18",
+      "label": "Flat bar '18",
+      "era": "2018",
+      "after": "Sunday Night Football on NBC, 2017-2022",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "NBC"
+      ],
+      "leagues": [
+        "NFL"
+      ],
+      "theme": "NBC Sunday night 2016-22"
+    },
+    {
+      "id": "tsn-slant-05",
+      "label": "Slant plates '05",
+      "era": "2005",
+      "after": "Canadian sports network score bar, mid-2000s (hockey and the CFL)",
+      "sports": [
+        "hockey",
+        "football"
+      ],
+      "tv": "soft",
+      "default_for": [],
+      "theme": "TSN slants"
+    },
+    {
+      "id": "nfl-netflix-24",
+      "label": "Split bar '24",
+      "era": "2024",
+      "after": "NFL Christmas games on Netflix, 2024-25",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "Netflix"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "nfl-youtube-25",
+      "label": "White bar '25",
+      "era": "2025",
+      "after": "NFL game on YouTube, 2025",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "YouTube"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "nfl-cbsflat-14",
+      "label": "Flat bar '14",
+      "era": "2014",
+      "after": "NFL on CBS, 2014-16",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "CBS"
+      ],
+      "leagues": [
+        "NFL"
+      ],
+      "theme": "CBS flat bars 2014-23"
+    },
+    {
+      "id": "nba-espn-14",
+      "label": "Black bar '14",
+      "era": "2014",
+      "after": "NBA on ESPN, 2014",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "networks": [
+        "ESPN"
+      ],
+      "leagues": [
+        "NBA",
+        "WNBA"
+      ]
+    },
+    {
+      "id": "cfb-blocks-25",
+      "label": "College blocks '25",
+      "era": "2025",
+      "after": "College football on CBS, 2025",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "CBS"
+      ],
+      "leagues": [
+        "NCAAF"
+      ]
+    },
+    {
+      "id": "cbb-espn-17",
+      "label": "Colour blocks '17",
+      "era": "2017",
+      "after": "College basketball on ESPN, 2017-26",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "networks": [
+        "ESPN"
+      ],
+      "leagues": [
+        "NCAAM",
+        "NCAAW"
+      ]
+    },
+    {
+      "id": "cbb-chrome-11",
+      "label": "Chrome bar '11",
+      "era": "2011",
+      "after": "College basketball on ESPN, 2011-16 (NBA on ESPN used the same chrome bar, 2010-12)",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "networks": [
+        "ESPN",
+        "SEC Network"
+      ],
+      "leagues": [
+        "NCAAM",
+        "NCAAW",
+        "NBA",
+        "WNBA"
+      ]
+    },
+    {
+      "id": "nba-espn-08",
+      "label": "Red slant '08",
+      "era": "2008",
+      "after": "NBA on ESPN, 2008 (college basketball on ESPN used the same bar, 2007-10)",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "networks": [
+        "ESPN"
+      ],
+      "leagues": [
+        "NBA",
+        "WNBA",
+        "NCAAM",
+        "NCAAW"
+      ]
+    },
+    {
+      "id": "nba-espn-16",
+      "label": "Colour panels '16",
+      "era": "2016",
+      "after": "NBA on ESPN, 2016",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "networks": [
+        "ESPN"
+      ],
+      "leagues": [
+        "NBA",
+        "WNBA"
+      ]
+    },
+    {
+      "id": "nba-espn-20",
+      "label": "Split tiles '20",
+      "era": "2020",
+      "after": "NBA on ESPN, 2020",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "networks": [
+        "ESPN"
+      ],
+      "leagues": [
+        "NBA",
+        "WNBA"
+      ]
+    },
+    {
+      "id": "cfb-sec-25",
+      "label": "Blue glass '25",
+      "era": "2025",
+      "after": "College football on the SEC Network, 2025",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "SEC Network"
+      ],
+      "leagues": [
+        "NCAAF"
+      ]
+    },
+    {
+      "id": "cfb-cw-25",
+      "label": "White panels '25",
+      "era": "2025",
+      "after": "College football on the CW, 2025",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "CW"
+      ],
+      "leagues": [
+        "NCAAF"
+      ]
+    },
+    {
+      "id": "nfl-nbc-12",
+      "label": "Chrome caps '12",
+      "era": "2012",
+      "after": "Sunday Night Football on NBC, 2012-15",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "NBC"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "nfl-nbc-90",
+      "label": "Black box '90s",
+      "era": "1990s",
+      "after": "NFL on NBC, 1990s",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "NBC"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "nfl-cbs-16",
+      "label": "Slate bar '16",
+      "era": "2016",
+      "after": "NFL on CBS, 2016-20",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "CBS"
+      ],
+      "leagues": [
+        "NFL"
+      ],
+      "theme": "CBS flat bars 2014-23"
+    },
+    {
+      "id": "cfb-tnt-25",
+      "label": "Dark capsule '25",
+      "era": "2025",
+      "after": "College football on TNT Sports, 2025",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "TNT",
+        "truTV"
+      ],
+      "leagues": [
+        "NCAAF"
+      ],
+      "theme": "TNT capsule '25"
+    },
+    {
+      "id": "cfb-usa-25",
+      "label": "Header blocks '25",
+      "era": "2025",
+      "after": "College football on USA Network, 2025",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "USA Network"
+      ],
+      "leagues": [
+        "NCAAF"
+      ]
+    },
+    {
+      "id": "nfl-cbs-21",
+      "label": "Team blocks '21",
+      "era": "2021",
+      "after": "NFL on CBS, 2021-23",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "CBS"
+      ],
+      "leagues": [
+        "NFL"
+      ],
+      "theme": "CBS flat bars 2014-23"
+    },
+    {
+      "id": "nfl-nbc-16",
+      "label": "Silver plates '16",
+      "era": "2016",
+      "after": "Sunday Night Football on NBC, 2016-17",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "NBC"
+      ],
+      "leagues": [
+        "NFL"
+      ],
+      "theme": "NBC Sunday night 2016-22"
+    },
+    {
+      "id": "mlb-netflix-26",
+      "label": "Big box '26",
+      "era": "2026",
+      "after": "MLB on Netflix, 2026",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "Netflix"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-mlbn-24",
+      "label": "Shield box '24",
+      "era": "2024",
+      "after": "MLB Network, 2020s",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "MLB Network"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-masn-24",
+      "label": "Two rows '24",
+      "era": "2024",
+      "after": "MASN, 2020s",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "MASN"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-sny-24",
+      "label": "Blue grid '24",
+      "era": "2024",
+      "after": "SNY, 2020s",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "SNY"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-diamond-26",
+      "label": "Centre diamond '26",
+      "era": "2026",
+      "after": "MLB team broadcast, 2026",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-nesn-26",
+      "label": "Slant box '26",
+      "era": "2026",
+      "after": "NESN, 2026",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "NESN"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-tbs-16",
+      "label": "Thin strip '16",
+      "era": "2016",
+      "after": "MLB on TBS, 2016",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "TBS"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "nfl-espn-11",
+      "label": "Chrome bar '11",
+      "era": "2011",
+      "after": "NFL on ESPN, 2011-16",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "ESPN"
+      ],
+      "leagues": [
+        "NFL"
+      ],
+      "theme": "ESPN Monday night chrome"
+    },
+    {
+      "id": "nfl-espn-06",
+      "label": "Banner '06",
+      "era": "2006",
+      "after": "Monday Night Football on ESPN, 2006",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "ESPN"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "nfl-cbs-01",
+      "label": "Blue box '01",
+      "era": "2001",
+      "after": "NFL on CBS, 2001",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "CBS"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "nfl-fox-10",
+      "label": "Two columns '10",
+      "era": "2010",
+      "after": "NFL on Fox, 2010",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "Fox"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "nfl-fox-12",
+      "label": "Rounded box '12",
+      "era": "2012",
+      "after": "NFL on Fox, 2012-13",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "Fox"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "nhl-abc-03",
+      "label": "Gold rows '03",
+      "era": "2003",
+      "after": "NHL on ABC, 2003",
+      "sports": [
+        "hockey"
+      ],
+      "default_for": [],
+      "networks": [
+        "ABC"
+      ],
+      "leagues": [
+        "NHL"
+      ]
+    },
+    {
+      "id": "mlb-marquee-24",
+      "label": "Blue cells '24",
+      "era": "2024",
+      "after": "Marquee Sports Network, 2020s",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "Marquee Sports Network",
+        "Marquee"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-snla-24",
+      "label": "Black panels '24",
+      "era": "2024",
+      "after": "SportsNet LA, 2020s",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "SportsNet LA",
+        "Spectrum SportsNet LA"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-sportsnet-24",
+      "label": "Navy box '24",
+      "era": "2024",
+      "after": "Sportsnet, 2020s",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "Sportsnet",
+        "SN"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-attsn-24",
+      "label": "Round logos '24",
+      "era": "2024",
+      "after": "AT&T SportsNet, 2020s",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "AT&T SportsNet",
+        "Space City Home Network"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-tbs-20",
+      "label": "Dark cells '20",
+      "era": "2020",
+      "after": "MLB on TBS, 2020-21",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "TBS"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "nba-espn-02",
+      "label": "Small box '02",
+      "era": "2002",
+      "after": "NBA on ESPN, 2002-04",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "networks": [
+        "ESPN"
+      ],
+      "leagues": [
+        "NBA",
+        "WNBA"
+      ]
+    },
+    {
+      "id": "mlb-nesn-22",
+      "label": "Navy grid '22",
+      "era": "2022",
+      "after": "NESN, early 2020s",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "NESN"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-nbcs-23",
+      "label": "Split panels '23",
+      "era": "2023",
+      "after": "NBC Sports (regional), 2020s",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "NBC Sports Bay Area",
+        "NBC Sports California",
+        "NBC Sports Philadelphia",
+        "NBC Sports Chicago",
+        "NBC Sports"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-youtube-22",
+      "label": "Logo blocks '22",
+      "era": "2022",
+      "after": "MLB on YouTube, 2022",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "YouTube"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-espn-22",
+      "label": "Records strip '22",
+      "era": "2022",
+      "after": "MLB on ESPN, 2020s",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "ESPN",
+        "ESPN2"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "nhl-olympics-18",
+      "label": "Teal pills '18",
+      "era": "2018",
+      "after": "Olympic hockey on NBC, 2018",
+      "sports": [
+        "hockey"
+      ],
+      "default_for": [],
+      "networks": [
+        "NBC",
+        "USA Network",
+        "Peacock"
+      ],
+      "leagues": [
+        "NHL"
+      ]
+    },
+    {
+      "id": "nhl-olympics-98",
+      "label": "Maroon clock '98",
+      "era": "1998",
+      "after": "Olympic hockey, Nagano 1998",
+      "sports": [
+        "hockey"
+      ],
+      "default_for": [],
+      "networks": [],
+      "leagues": [
+        "NHL"
+      ]
+    },
+    {
+      "id": "nhl-olympics-02",
+      "label": "Navy boxes '02",
+      "era": "2002",
+      "after": "Olympic hockey on NBC, 2002",
+      "sports": [
+        "hockey"
+      ],
+      "default_for": [],
+      "networks": [
+        "NBC",
+        "USA Network",
+        "Peacock"
+      ],
+      "leagues": [
+        "NHL"
+      ]
+    },
+    {
+      "id": "nhl-olympics-06",
+      "label": "Slant tabs '06",
+      "era": "2006",
+      "after": "Olympic hockey on NBC, 2006",
+      "sports": [
+        "hockey"
+      ],
+      "default_for": [],
+      "networks": [
+        "NBC",
+        "USA Network",
+        "Peacock"
+      ],
+      "leagues": [
+        "NHL"
+      ]
+    },
+    {
+      "id": "nhl-olympics-10",
+      "label": "Navy panel '10",
+      "era": "2010",
+      "after": "Olympic hockey on NBC, 2010",
+      "sports": [
+        "hockey"
+      ],
+      "default_for": [],
+      "networks": [
+        "NBC",
+        "USA Network",
+        "Peacock"
+      ],
+      "leagues": [
+        "NHL"
+      ]
+    },
+    {
+      "id": "nhl-olympics-14",
+      "label": "Blue slants '14",
+      "era": "2014",
+      "after": "Olympic hockey on NBC, 2014",
+      "sports": [
+        "hockey"
+      ],
+      "default_for": [],
+      "networks": [
+        "NBC",
+        "USA Network",
+        "Peacock"
+      ],
+      "leagues": [
+        "NHL"
+      ]
+    },
+    {
+      "id": "nhl-olympics-22",
+      "label": "Pale rows '22",
+      "era": "2022",
+      "after": "Olympic hockey on NBC, 2022",
+      "sports": [
+        "hockey"
+      ],
+      "default_for": [],
+      "networks": [
+        "NBC",
+        "USA Network",
+        "Peacock"
+      ],
+      "leagues": [
+        "NHL"
+      ]
+    },
+    {
+      "id": "nhl-espn-95",
+      "label": "Grey plate '95",
+      "era": "1995",
+      "after": "NHL on ESPN, 1995",
+      "sports": [
+        "hockey"
+      ],
+      "default_for": [],
+      "networks": [
+        "ESPN"
+      ],
+      "leagues": [
+        "NHL"
+      ]
+    },
+    {
+      "id": "nhl-espn2-95",
+      "label": "Lower case '95",
+      "era": "1995",
+      "after": "NHL on ESPN2, 1995-99",
+      "sports": [
+        "hockey"
+      ],
+      "default_for": [],
+      "networks": [
+        "ESPN2"
+      ],
+      "leagues": [
+        "NHL"
+      ]
+    },
+    {
+      "id": "nhl-espn-96",
+      "label": "White tag '96",
+      "era": "1996",
+      "after": "NHL on ESPN, 1995-97",
+      "sports": [
+        "hockey"
+      ],
+      "default_for": [],
+      "networks": [
+        "ESPN"
+      ],
+      "leagues": [
+        "NHL"
+      ]
+    },
+    {
+      "id": "nhl-espn-97",
+      "label": "Black tab '97",
+      "era": "1997",
+      "after": "NHL on ESPN, 1997-98",
+      "sports": [
+        "hockey"
+      ],
+      "default_for": [],
+      "networks": [
+        "ESPN"
+      ],
+      "leagues": [
+        "NHL"
+      ]
+    },
+    {
+      "id": "nhl-espn-99",
+      "label": "Oval tab '99",
+      "era": "1999",
+      "after": "NHL on ESPN, 1999-2004",
+      "sports": [
+        "hockey"
+      ],
+      "default_for": [],
+      "networks": [
+        "ESPN"
+      ],
+      "leagues": [
+        "NHL"
+      ],
+      "theme": "ESPN/ABC oval tab '99"
+    },
+    {
+      "id": "nhl-abc-99",
+      "label": "Orange oval '99",
+      "era": "1999",
+      "after": "NHL on ABC, 1999-2002",
+      "sports": [
+        "hockey"
+      ],
+      "default_for": [],
+      "networks": [
+        "ABC"
+      ],
+      "leagues": [
+        "NHL"
+      ],
+      "theme": "ESPN/ABC oval tab '99"
+    },
+    {
+      "id": "nhl-abc-04",
+      "label": "Cream box '04",
+      "era": "2004",
+      "after": "NHL on ABC, 2004",
+      "sports": [
+        "hockey"
+      ],
+      "default_for": [],
+      "networks": [
+        "ABC"
+      ],
+      "leagues": [
+        "NHL"
+      ]
+    },
+    {
+      "id": "nfl-fox-96",
+      "label": "Dark box '96",
+      "era": "1996",
+      "after": "NFL on Fox, 1996-97",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "FOX"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "nfl-fox-98",
+      "label": "Grey plate '98",
+      "era": "1998",
+      "after": "NFL on Fox, 1998-99",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "FOX"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "nfl-fox-01",
+      "label": "Ticker strip '01",
+      "era": "2001",
+      "after": "NFL on Fox, 2001-02",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "FOX"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "nfl-fox-03",
+      "label": "Green strip '03",
+      "era": "2003",
+      "after": "NFL on Fox, 2003-05",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "FOX"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "nfl-fox-05",
+      "label": "Silver slants '05",
+      "era": "2005",
+      "after": "NFL on Fox, late 2005",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "FOX"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "nfl-fox-06",
+      "label": "Box strip '06",
+      "era": "2006",
+      "after": "NFL on Fox, 2006-09",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "FOX"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "nfl-fox-11",
+      "label": "Logo capsule '11",
+      "era": "2011",
+      "after": "NFL on Fox, 2011",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "FOX"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "nfl-fox-17",
+      "label": "Flat bar '17",
+      "era": "2017",
+      "after": "NFL on FOX, 2017-2022",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "FOX"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "nfl-cbs-98",
+      "label": "Blue panel '98",
+      "era": "1998",
+      "after": "NFL on CBS, 1998",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "CBS"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "nfl-nbc-97",
+      "label": "Gold rules '97",
+      "era": "1997",
+      "after": "NBC, Super Bowl XXXII (1997 season)",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "NBC"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "mlb-tbs-98",
+      "label": "Superstation '98",
+      "era": "1998",
+      "after": "TBS Braves baseball, 1998-99",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "TBS"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-tbs-00",
+      "label": "Gold diamond '00",
+      "era": "2000",
+      "after": "TBS Braves baseball, 2000-01",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "TBS"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-tbs-02",
+      "label": "Navy diamond '02",
+      "era": "2002",
+      "after": "TBS Braves baseball, 2002",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "TBS"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-tbs-03",
+      "label": "White rows '03",
+      "era": "2003",
+      "after": "TBS Braves baseball, 2003",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "TBS"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-tbs-04",
+      "label": "Red pill '04",
+      "era": "2004",
+      "after": "MLB on TBS, 2004-07",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "TBS"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-tbs-07",
+      "label": "Postseason strip '07",
+      "era": "2007",
+      "after": "MLB on TBS, 2007-08 postseason",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "TBS"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-tbs-09",
+      "label": "Navy bar '09",
+      "era": "2009",
+      "after": "MLB on TBS, 2009-10",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "TBS"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-tbs-11",
+      "label": "Silver capsule '11",
+      "era": "2011",
+      "after": "MLB on TBS, 2011-15",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "TBS"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "cbb-espn-97",
+      "label": "White tag '97",
+      "era": "1997",
+      "after": "College basketball on ESPN, 1997-98",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "networks": [
+        "ESPN"
+      ],
+      "leagues": [
+        "NCAAM",
+        "NCAAW"
+      ]
+    },
+    {
+      "id": "cbb-espn-98",
+      "label": "Oval tag '98",
+      "era": "1998",
+      "after": "College basketball on ESPN, 1998-99",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "networks": [
+        "ESPN"
+      ],
+      "leagues": [
+        "NCAAM"
+      ]
+    },
+    {
+      "id": "cbb-espn-99",
+      "label": "Slate rows '99",
+      "era": "1999",
+      "after": "College basketball on ESPN, 1999-2004",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "networks": [
+        "ESPN"
+      ],
+      "leagues": [
+        "NCAAM"
+      ]
+    },
+    {
+      "id": "cbb-espn-04",
+      "label": "Black box '04",
+      "era": "2004",
+      "after": "College basketball on ESPN, 2004-07",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "networks": [
+        "ESPN"
+      ],
+      "leagues": [
+        "NCAAM",
+        "NCAAW"
+      ]
+    },
+    {
+      "id": "cbb-espn-16",
+      "label": "Light bar '16",
+      "era": "2016",
+      "after": "College basketball on ESPN, 2016-17",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "networks": [
+        "ESPN"
+      ],
+      "leagues": [
+        "NCAAM",
+        "NCAAW"
+      ]
+    },
+    {
+      "id": "mlb-nbc-26",
+      "label": "Logo panels '26",
+      "era": "2026",
+      "after": "MLB on NBC and Peacock, 2026",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "NBC",
+        "Peacock"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-yes-26",
+      "label": "Silver strip '26",
+      "era": "2026",
+      "after": "YES Network, 2026",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "YES",
+        "YES Network"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-glass-26",
+      "label": "Dark glass '26",
+      "era": "2026",
+      "after": "MLB on Apple TV, 2026",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "Apple TV",
+        "Apple TV+"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "nhl-olympics-26",
+      "label": "Teal panel '26",
+      "era": "2026",
+      "after": "Olympic hockey on NBC, 2026",
+      "sports": [
+        "hockey"
+      ],
+      "default_for": [],
+      "networks": [
+        "NBC",
+        "USA Network",
+        "Peacock"
+      ],
+      "leagues": [
+        "NHL"
+      ]
+    },
+    {
+      "id": "nfl-cbs-04",
+      "label": "Eye bar '04",
+      "era": "2004",
+      "after": "NFL on CBS, 2004",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "CBS"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "nfl-cbs-11",
+      "label": "Blue bar '11",
+      "era": "2011",
+      "after": "NFL on CBS, 2011",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "CBS"
+      ],
+      "leagues": [
+        "NFL"
+      ],
+      "theme": "CBS 2011-13"
+    },
+    {
+      "id": "nfl-cbs-13",
+      "label": "Dark bar '13",
+      "era": "2013",
+      "after": "Super Bowl XLVII on CBS, 2013",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "CBS"
+      ],
+      "leagues": [
+        "NFL"
+      ],
+      "theme": "CBS 2011-13"
+    },
+    {
+      "id": "nfl-foxsb-20",
+      "label": "Logo plates '20",
+      "era": "2020",
+      "after": "Super Bowl LIV on FOX, 2020",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "FOX"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "nfl-nbc-22",
+      "label": "Clock ring '22",
+      "era": "2022",
+      "after": "Super Bowl LVI on NBC, 2022",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "NBC"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "nfl-espn-16",
+      "label": "Black bar '16",
+      "era": "2016",
+      "after": "Monday Night Football on ESPN, 2016",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "ESPN"
+      ],
+      "leagues": [
+        "NFL"
+      ],
+      "theme": "ESPN Monday night 2016-22"
+    },
+    {
+      "id": "nfl-amazon-22",
+      "label": "Prime bar '22",
+      "era": "2022",
+      "after": "Thursday Night Football on Prime Video, 2022",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "Prime Video"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "nfl-nfln-14",
+      "label": "Network bar '14",
+      "era": "2014",
+      "after": "Thursday Night Football on NFL Network, 2014",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "NFL Network"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "nfl-espn-07",
+      "label": "Barrels '07",
+      "era": "2006-07",
+      "after": "NFL on ESPN, 2006-07",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "ESPN"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "nfl-abc-99",
+      "label": "Red oval '99",
+      "era": "1999-2000",
+      "after": "Monday Night Football on ABC, 1999-2000",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "ABC"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "nfl-abc-01",
+      "label": "Black box '01",
+      "era": "2001-02",
+      "after": "Monday Night Football on ABC, 2001-02",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "ABC"
+      ],
+      "leagues": [
+        "NFL"
+      ],
+      "theme": "ABC Monday night 2001-04"
+    },
+    {
+      "id": "nfl-abc-04",
+      "label": "Red frame '04",
+      "era": "2003-04",
+      "after": "Monday Night Football on ABC, 2003-04",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "ABC"
+      ],
+      "leagues": [
+        "NFL"
+      ],
+      "theme": "ABC Monday night 2001-04"
+    },
+    {
+      "id": "nfl-abc-05",
+      "label": "Cream box '05",
+      "era": "2004-05",
+      "after": "Monday Night Football on ABC, 2004-05",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "ABC"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "nba-espn-21",
+      "label": "Mirror bar '21",
+      "era": "2021-22",
+      "after": "NBA on ESPN/ABC, 2021-22",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "networks": [
+        "ESPN",
+        "ABC"
+      ],
+      "leagues": [
+        "NBA"
+      ]
+    },
+    {
+      "id": "nba-espn-22",
+      "label": "Black bar '22",
+      "era": "2022-24",
+      "after": "NBA on ESPN, 2022-24",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "networks": [
+        "ESPN"
+      ],
+      "leagues": [
+        "NBA"
+      ],
+      "theme": "ESPN NBA 2022-25"
+    },
+    {
+      "id": "nhl-nbc-12",
+      "label": "Cup bar '12",
+      "era": "2012",
+      "after": "NHL on NBC, 2012 Stanley Cup Final",
+      "sports": [
+        "hockey"
+      ],
+      "default_for": [],
+      "networks": [
+        "NBC"
+      ],
+      "leagues": [
+        "NHL"
+      ]
+    },
+    {
+      "id": "nfl-cbs-12",
+      "label": "Disc bar '12",
+      "era": "2012",
+      "after": "NFL on CBS, about 2012",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "CBS"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "ncaah-ccha-25",
+      "label": "Silver plates '25",
+      "era": "2025",
+      "after": "CCHA college hockey on CCHA TV, 2020s",
+      "sports": [
+        "hockey"
+      ],
+      "default_for": [],
+      "networks": [
+        "CCHA TV"
+      ],
+      "leagues": [
+        "NCAAH"
+      ]
+    },
+    {
+      "id": "cfb-twin-17",
+      "label": "Twin panels",
+      "era": "2010s",
+      "after": "College football, Army v Navy",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "CBS"
+      ],
+      "leagues": [
+        "NCAAF"
+      ]
+    },
+    {
+      "id": "cfb-mascot-15",
+      "label": "Mascot bar",
+      "era": "2010s",
+      "after": "College football, a school-name and mascot bar",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [],
+      "leagues": [
+        "NCAAF"
+      ]
+    },
+    {
+      "id": "cfb-stadium-19",
+      "label": "Stadium bar",
+      "era": "2019",
+      "after": "College football on Stadium, late 2010s",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "Stadium"
+      ],
+      "leagues": [
+        "NCAAF"
+      ]
+    },
+    {
+      "id": "cfb-fox-20",
+      "label": "Glass halves '20",
+      "era": "2020-23",
+      "after": "College football on FOX, early 2020s",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "FOX",
+        "FS1"
+      ],
+      "leagues": [
+        "NCAAF"
+      ]
+    },
+    {
+      "id": "cfb-espn-20",
+      "label": "Slash panels '20",
+      "era": "2020-23",
+      "after": "College football on ESPN/ABC, early 2020s",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "ESPN",
+        "ABC"
+      ],
+      "leagues": [
+        "NCAAF"
+      ]
+    },
+    {
+      "id": "mlb-csn-12",
+      "label": "Ballpark box '12",
+      "era": "2012",
+      "after": "Comcast SportsNet California, early 2010s",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "CSN California",
+        "NBC Sports California"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-fox-01",
+      "label": "Bases strip '01",
+      "era": "2001",
+      "after": "MLB Saturday national package, 2001-04",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "FOX"
+      ],
+      "leagues": [
+        "MLB"
+      ],
+      "tv": "soft"
+    },
+    {
+      "id": "mlb-fox-05",
+      "label": "Dark strip '05",
+      "era": "2005",
+      "after": "MLB Saturday national package, 2004 postseason to 2005",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "FOX"
+      ],
+      "leagues": [
+        "MLB"
+      ],
+      "tv": "soft"
+    },
+    {
+      "id": "mlb-fox-06",
+      "label": "Silver strip '06",
+      "era": "2006",
+      "after": "MLB postseason and World Series, 2005-07",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "FOX"
+      ],
+      "leagues": [
+        "MLB"
+      ],
+      "tv": "soft"
+    },
+    {
+      "id": "mlb-fox-08",
+      "label": "Chip strip '08",
+      "era": "2008",
+      "after": "MLB Saturday national package, 2008",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "FOX"
+      ],
+      "leagues": [
+        "MLB"
+      ],
+      "tv": "soft"
+    },
+    {
+      "id": "mlb-fox-09",
+      "label": "Framed box '09",
+      "era": "2009",
+      "after": "MLB Saturday national package, 2009-10",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "FOX"
+      ],
+      "leagues": [
+        "MLB"
+      ],
+      "tv": "soft"
+    },
+    {
+      "id": "mlb-fox-11",
+      "label": "Glass capsule '11",
+      "era": "2011",
+      "after": "MLB Saturday national package, 2011",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "FOX"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-fox-12",
+      "label": "Logo capsule '12",
+      "era": "2012",
+      "after": "MLB Saturday national package, 2012",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "FOX"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-fox-13",
+      "label": "Mesh box '13",
+      "era": "2013",
+      "after": "MLB Saturday national package, 2012 NLCS to 2013",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "FOX"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-fox-14",
+      "label": "Olive frame '14",
+      "era": "2014",
+      "after": "MLB Saturday national package, 2014-17",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "FOX"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-fox-17",
+      "label": "Flat box '17",
+      "era": "2017",
+      "after": "MLB Saturday national package, 2017 postseason to 2021",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "FOX"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-fox-21",
+      "label": "Field of Dreams '21",
+      "era": "2021",
+      "after": "MLB at Field of Dreams, Aug. 12, 2021",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "FOX"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-fox-96",
+      "label": "Red caps '96",
+      "era": "1996",
+      "after": "MLB Saturday national package, June 1-15, 1996",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "FOX"
+      ],
+      "leagues": [
+        "MLB"
+      ],
+      "tv": "soft"
+    },
+    {
+      "id": "mlb-fox-97",
+      "label": "Diamond wings '97",
+      "era": "1997",
+      "after": "MLB Saturday national package, July 1996 to 1997",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "FOX"
+      ],
+      "leagues": [
+        "MLB"
+      ],
+      "tv": "soft"
+    },
+    {
+      "id": "mlb-fox-98",
+      "label": "Red can '98",
+      "era": "1998",
+      "after": "MLB Saturday national package, 1998",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "FOX"
+      ],
+      "leagues": [
+        "MLB"
+      ],
+      "tv": "soft"
+    },
+    {
+      "id": "mlb-foxbox-96",
+      "label": "Slant slab '96",
+      "era": "1996",
+      "after": "MLB Saturday national package, June 22 to July 6, 1996",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "FOX"
+      ],
+      "leagues": [
+        "MLB"
+      ],
+      "tv": "soft"
+    },
+    {
+      "id": "mlb-fsw-12",
+      "label": "Colour rows '12",
+      "era": "2012",
+      "after": "FOX Sports West, early 2010s",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "FOX Sports West",
+        "Bally Sports West"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-nesn-12",
+      "label": "Steel frame '12",
+      "era": "2012",
+      "after": "NESN, early 2010s",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "NESN"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-wgn-12",
+      "label": "Red tab '12",
+      "era": "2012",
+      "after": "WGN, early 2010s",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "WGN"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "mlb-yes-12",
+      "label": "Blue plates '12",
+      "era": "2012",
+      "after": "YES Network, early 2010s",
+      "sports": [
+        "baseball"
+      ],
+      "default_for": [],
+      "networks": [
+        "YES",
+        "YES Network"
+      ],
+      "leagues": [
+        "MLB"
+      ]
+    },
+    {
+      "id": "nba-box-22",
+      "label": "Silver scores '22",
+      "era": "2020s",
+      "after": "NBA regional broadcast, early 2020s",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "leagues": [
+        "NBA"
+      ]
+    },
+    {
+      "id": "nba-dashbar-22",
+      "label": "Dash bar '22",
+      "era": "2020s",
+      "after": "NBA regional broadcast, early 2020s",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "leagues": [
+        "NBA"
+      ]
+    },
+    {
+      "id": "nba-dashes-22",
+      "label": "Dash panels '22",
+      "era": "2020s",
+      "after": "NBA regional broadcast, early 2020s",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "leagues": [
+        "NBA"
+      ]
+    },
+    {
+      "id": "nba-slab-22",
+      "label": "Slab panels '22",
+      "era": "2020s",
+      "after": "NBA regional broadcast, early 2020s",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "leagues": [
+        "NBA"
+      ]
+    },
+    {
+      "id": "nba-strip-22",
+      "label": "Bottom strip '22",
+      "era": "2020s",
+      "after": "NBA regional sports networks, early 2020s",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "leagues": [
+        "NBA"
+      ]
+    },
+    {
+      "id": "nfl-fox-02",
+      "label": "Gold plates '02",
+      "era": "2002",
+      "after": "NFL on FOX, 2002",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "FOX"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "nfl-fox-04",
+      "label": "Team tabs '04",
+      "era": "2004",
+      "after": "NFL on FOX, 2004 weeks 1-10",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "FOX"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "nfl-foxlogo-03",
+      "label": "Logo strip '03",
+      "era": "2003",
+      "after": "NFL on FOX, 2003 regular season",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "FOX"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "nfl-foxred-04",
+      "label": "Red clock '04",
+      "era": "2004-05",
+      "after": "NFL on FOX, 2004 week 11 to 2005 week 14",
+      "sports": [
+        "football"
+      ],
+      "default_for": [],
+      "networks": [
+        "FOX"
+      ],
+      "leagues": [
+        "NFL"
+      ]
+    },
+    {
+      "id": "nhl-cbc-05",
+      "label": "Blue capsule '05",
+      "era": "2005",
+      "after": "CBC Hockey Night in Canada, mid-2000s",
+      "sports": [
+        "hockey"
+      ],
+      "tv": "soft",
+      "default_for": [],
+      "networks": [
+        "CBC"
+      ],
+      "leagues": [
+        "NHL"
+      ]
+    },
+    {
+      "id": "nhl-cbc-10",
+      "label": "Badge rows '10",
+      "era": "2010",
+      "after": "CBC Hockey Night in Canada, about 2010",
+      "sports": [
+        "hockey"
+      ],
+      "default_for": [],
+      "networks": [
+        "CBC"
+      ],
+      "leagues": [
+        "NHL"
+      ]
+    },
+    {
+      "id": "nhl-cbc-12",
+      "label": "Shield strip '12",
+      "era": "2012",
+      "after": "CBC Hockey Night in Canada, early 2010s",
+      "sports": [
+        "hockey"
+      ],
+      "default_for": [],
+      "networks": [
+        "CBC"
+      ],
+      "leagues": [
+        "NHL"
+      ]
+    },
+    {
+      "id": "nhl-cbc-97",
+      "label": "Red box '97",
+      "era": "1997",
+      "after": "CBC Hockey Night in Canada, late 1990s",
+      "sports": [
+        "hockey"
+      ],
+      "tv": "soft",
+      "default_for": [],
+      "networks": [
+        "CBC"
+      ],
+      "leagues": [
+        "NHL"
+      ]
+    },
+    {
+      "id": "nhl-leafstv-09",
+      "label": "Night strip '09",
+      "era": "2009",
+      "after": "Leafs TV, late 2000s",
+      "sports": [
+        "hockey"
+      ],
+      "default_for": [],
+      "networks": [
+        "Leafs TV"
+      ],
+      "leagues": [
+        "NHL"
+      ]
+    },
+    {
+      "id": "nhl-leafstv-11",
+      "label": "Glass band '11",
+      "era": "2011",
+      "after": "Leafs TV, early 2010s",
+      "sports": [
+        "hockey"
+      ],
+      "default_for": [],
+      "networks": [
+        "Leafs TV"
+      ],
+      "leagues": [
+        "NHL"
+      ]
+    },
+    {
+      "id": "nhl-leafstv-14",
+      "label": "Gold period '14",
+      "era": "2014",
+      "after": "Leafs TV, mid-2010s",
+      "sports": [
+        "hockey"
+      ],
+      "default_for": [],
+      "networks": [
+        "Leafs TV"
+      ],
+      "leagues": [
+        "NHL"
+      ]
+    },
+    {
+      "id": "nhl-sn-00",
+      "label": "Grey box '00",
+      "era": "2000",
+      "after": "CTV Sportsnet NHL, about 2000",
+      "sports": [
+        "hockey"
+      ],
+      "tv": "soft",
+      "default_for": [],
+      "networks": [
+        "Sportsnet",
+        "SN"
+      ],
+      "leagues": [
+        "NHL"
+      ]
+    },
+    {
+      "id": "nhl-sn-05",
+      "label": "Gold scores '05",
+      "era": "2005",
+      "after": "Rogers Sportsnet NHL, mid-2000s",
+      "sports": [
+        "hockey"
+      ],
+      "tv": "soft",
+      "default_for": [],
+      "networks": [
+        "Sportsnet",
+        "SN"
+      ],
+      "leagues": [
+        "NHL"
+      ]
+    },
+    {
+      "id": "nhl-sn-07",
+      "label": "Navy slants '07",
+      "era": "2007",
+      "after": "Rogers Sportsnet NHL, late 2000s",
+      "sports": [
+        "hockey"
+      ],
+      "default_for": [],
+      "networks": [
+        "Sportsnet",
+        "SN"
+      ],
+      "leagues": [
+        "NHL"
+      ]
+    },
+    {
+      "id": "nhl-sn-11",
+      "label": "Capsule bar '11",
+      "era": "2011",
+      "after": "Sportsnet NHL, early 2010s",
+      "sports": [
+        "hockey"
+      ],
+      "default_for": [],
+      "networks": [
+        "Sportsnet",
+        "SN"
+      ],
+      "leagues": [
+        "NHL"
+      ]
+    },
+    {
+      "id": "nhl-sn-14",
+      "label": "Logo tiles '14",
+      "era": "2014",
+      "after": "Sportsnet NHL, mid-2010s",
+      "sports": [
+        "hockey"
+      ],
+      "default_for": [],
+      "networks": [
+        "Sportsnet",
+        "SN"
+      ],
+      "leagues": [
+        "NHL"
+      ],
+      "theme": "Sportsnet 2014-15"
+    },
+    {
+      "id": "nhl-sn-15",
+      "label": "Stripe panels '15",
+      "era": "2015",
+      "after": "Sportsnet NHL, mid-2010s",
+      "sports": [
+        "hockey"
+      ],
+      "default_for": [],
+      "networks": [
+        "Sportsnet",
+        "SN"
+      ],
+      "leagues": [
+        "NHL"
+      ],
+      "theme": "Sportsnet 2014-15"
+    },
+    {
+      "id": "nhl-tsn-08",
+      "label": "Grey slants '08",
+      "era": "2008",
+      "after": "TSN NHL, late 2000s",
+      "sports": [
+        "hockey"
+      ],
+      "default_for": [],
+      "networks": [
+        "TSN"
+      ],
+      "leagues": [
+        "NHL"
+      ],
+      "theme": "TSN slants"
+    },
+    {
+      "id": "nhl-tsn-11",
+      "label": "Black slants '11",
+      "era": "2011",
+      "after": "TSN NHL, early 2010s",
+      "sports": [
+        "hockey"
+      ],
+      "default_for": [],
+      "networks": [
+        "TSN"
+      ],
+      "leagues": [
+        "NHL"
+      ]
+    },
+    {
+      "id": "nhl-tsn-14",
+      "label": "White clock '14",
+      "era": "2014",
+      "after": "TSN NHL, mid-2010s",
+      "sports": [
+        "hockey"
+      ],
+      "default_for": [],
+      "networks": [
+        "TSN"
+      ],
+      "leagues": [
+        "NHL"
+      ]
+    },
+    {
+      "id": "nba-tnt-00",
+      "label": "Quarter band '00",
+      "era": "2000",
+      "after": "NBA on TNT, 2000",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "networks": [
+        "TNT"
+      ],
+      "leagues": [
+        "NBA"
+      ],
+      "tv": "soft"
+    },
+    {
+      "id": "nba-tnt-01",
+      "label": "Big clock '01",
+      "era": "2000-01",
+      "after": "NBA on TNT, 2000-01",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "networks": [
+        "TNT"
+      ],
+      "leagues": [
+        "NBA"
+      ],
+      "tv": "soft"
+    },
+    {
+      "id": "nba-tnt-02",
+      "label": "Ring box '02",
+      "era": "2001-02",
+      "after": "NBA on TNT, 2001-02",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "networks": [
+        "TNT"
+      ],
+      "leagues": [
+        "NBA"
+      ],
+      "tv": "soft"
+    },
+    {
+      "id": "nba-tnt-05",
+      "label": "Crimson disc '05",
+      "era": "2005-06",
+      "after": "NBA on TNT, 2005-06",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "networks": [
+        "TNT"
+      ],
+      "leagues": [
+        "NBA"
+      ],
+      "tv": "soft",
+      "theme": "TNT NBA 2005-22"
+    },
+    {
+      "id": "nba-tnt-06",
+      "label": "Colour rows '06",
+      "era": "2006-08",
+      "after": "NBA on TNT, 2006-08",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "networks": [
+        "TNT"
+      ],
+      "leagues": [
+        "NBA"
+      ],
+      "tv": "soft",
+      "theme": "TNT NBA 2005-22"
+    },
+    {
+      "id": "nba-tnt-08",
+      "label": "Team columns '08",
+      "era": "2008-10",
+      "after": "NBA on TNT, 2008-10",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "networks": [
+        "TNT"
+      ],
+      "leagues": [
+        "NBA"
+      ]
+    },
+    {
+      "id": "nba-tnt-10",
+      "label": "White scores '10",
+      "era": "2010-12",
+      "after": "NBA on TNT, 2010-12",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "networks": [
+        "TNT"
+      ],
+      "leagues": [
+        "NBA"
+      ],
+      "theme": "TNT NBA 2005-22"
+    },
+    {
+      "id": "nba-tnt-12",
+      "label": "Fade bar '12",
+      "era": "2012-14",
+      "after": "NBA on TNT, 2012-14",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "networks": [
+        "TNT"
+      ],
+      "leagues": [
+        "NBA"
+      ],
+      "theme": "TNT NBA 2005-22"
+    },
+    {
+      "id": "nba-tnt-14",
+      "label": "Team bar '14",
+      "era": "2014-22",
+      "after": "NBA on TNT, 2014-22",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "networks": [
+        "TNT"
+      ],
+      "leagues": [
+        "NBA"
+      ],
+      "theme": "TNT NBA 2005-22"
+    },
+    {
+      "id": "nba-tnt-22",
+      "label": "Stacked panels '22",
+      "era": "2022-25",
+      "after": "NBA on TNT, 2022-25",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "networks": [
+        "TNT"
+      ],
+      "leagues": [
+        "NBA"
+      ]
+    },
+    {
+      "id": "nba-tnt-99",
+      "label": "Lilac plate '99",
+      "era": "1999-2000",
+      "after": "NBA on TNT, 1999-2000",
+      "sports": [
+        "basketball"
+      ],
+      "default_for": [],
+      "networks": [
+        "TNT"
+      ],
+      "leagues": [
+        "NBA"
+      ],
+      "tv": "soft"
+    },
+    {
+      "id": "ufl-fox-24",
+      "label": "Mesh panels '24",
+      "era": "2024-26",
+      "after": "Spring pro football league's own package, 2024-26",
+      "sports": [
+        "football"
+      ],
+      "leagues": [
+        "UFL"
+      ],
+      "networks": [
+        "FOX",
+        "ABC",
+        "ESPN"
+      ],
+      "default_for": [
+        "UFL"
+      ],
+      "theme": "Spring league two-row bar 2020-26"
+    },
+    {
+      "id": "xfl-fox-20",
+      "label": "Twin panels '20",
+      "era": "2020",
+      "after": "Spring pro football, 2020 (its Saturday and Sunday network)",
+      "sports": [
+        "football"
+      ],
+      "leagues": [
+        "UFL"
+      ],
+      "networks": [
+        "FOX",
+        "FS1"
+      ],
+      "default_for": [],
+      "theme": "Spring league two-row bar 2020-26"
+    },
+    {
+      "id": "ufl-espn-23",
+      "label": "White bar '23",
+      "era": "2023-24",
+      "after": "Spring pro football on its cable and broadcast partner, 2023-24",
+      "sports": [
+        "football"
+      ],
+      "leagues": [
+        "UFL"
+      ],
+      "networks": [
+        "ESPN",
+        "ABC"
+      ],
+      "default_for": [],
+      "theme": "Spring league full-width bar 2020-24"
+    },
+    {
+      "id": "xfl-espn-20",
+      "label": "Slate bar '20",
+      "era": "2020",
+      "after": "Spring pro football on its cable and broadcast partner, 2020",
+      "sports": [
+        "football"
+      ],
+      "leagues": [
+        "UFL"
+      ],
+      "networks": [
+        "ESPN",
+        "ABC"
+      ],
+      "default_for": [],
+      "theme": "Spring league full-width bar 2020-24"
+    },
+    {
+      "id": "usfl-nbc-22",
+      "label": "Slant blocks '22",
+      "era": "2022",
+      "after": "Spring pro football on a broadcast network and its cable sister, 2022",
+      "sports": [
+        "football"
+      ],
+      "leagues": [
+        "UFL"
+      ],
+      "networks": [
+        "NBC",
+        "USA"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "xfl-nbc-01",
+      "label": "Chrome box '01",
+      "era": "2001",
+      "after": "Spring pro football on a broadcast network, 2001",
+      "sports": [
+        "football"
+      ],
+      "leagues": [
+        "UFL"
+      ],
+      "networks": [
+        "NBC",
+        "UPN",
+        "TNN"
+      ],
+      "default_for": [],
+      "tv": "soft"
+    },
+    {
+      "id": "cfl-tsn-25",
+      "label": "Centre box '25",
+      "era": "2025",
+      "after": "Canadian sports network's CFL package, 2025-26",
+      "sports": [
+        "football"
+      ],
+      "leagues": [
+        "CFL"
+      ],
+      "networks": [
+        "TSN"
+      ],
+      "default_for": [],
+      "theme": "TSN CFL"
+    },
+    {
+      "id": "cfl-tsn-23",
+      "label": "Pale strip '23",
+      "era": "2023",
+      "after": "Canadian sports network's CFL bar, early 2020s",
+      "sports": [
+        "football"
+      ],
+      "leagues": [
+        "CFL"
+      ],
+      "networks": [
+        "TSN"
+      ],
+      "default_for": [],
+      "theme": "TSN CFL"
+    },
+    {
+      "id": "cfl-tsn-18",
+      "label": "Capsule cells '18",
+      "era": "2018",
+      "after": "Canadian sports network's CFL bar, late 2010s",
+      "sports": [
+        "football"
+      ],
+      "leagues": [
+        "CFL"
+      ],
+      "networks": [
+        "TSN"
+      ],
+      "default_for": [],
+      "theme": "TSN CFL"
+    },
+    {
+      "id": "cfl-tsn-14",
+      "label": "White slants '14",
+      "era": "2014",
+      "after": "Canadian sports network's CFL bar, mid-2010s",
+      "sports": [
+        "football"
+      ],
+      "leagues": [
+        "CFL"
+      ],
+      "networks": [
+        "TSN"
+      ],
+      "default_for": [],
+      "theme": "TSN CFL"
+    },
+    {
+      "id": "pwhl-bar-24",
+      "label": "Purple frame '24",
+      "era": "2024",
+      "after": "Women's pro hockey league world feed, first season (2024), with its playoff dress",
+      "sports": [
+        "hockey"
+      ],
+      "leagues": [
+        "PWHL"
+      ],
+      "networks": [],
+      "default_for": [],
+      "dresses": [
+        "regular",
+        "playoffs",
+        "finals"
+      ],
+      "theme": "PWHL world feed"
+    },
+    {
+      "id": "pwhl-crest-24",
+      "label": "Crest tabs '24",
+      "era": "2024",
+      "after": "Women's pro hockey league world feed, second season (2024-25)",
+      "sports": [
+        "hockey"
+      ],
+      "leagues": [
+        "PWHL"
+      ],
+      "networks": [],
+      "default_for": [],
+      "theme": "PWHL world feed"
+    },
+    {
+      "id": "pwhl-curve-25",
+      "label": "Curved plate '25",
+      "era": "2025",
+      "after": "Women's pro hockey league world feed, 2025 finals on (third season, 2025-26), with its playoff dress",
+      "sports": [
+        "hockey"
+      ],
+      "leagues": [
+        "PWHL"
+      ],
+      "networks": [],
+      "default_for": [],
+      "theme": "PWHL world feed",
+      "dresses": [
+        "regular",
+        "playoffs",
+        "finals"
+      ]
+    },
+    {
+      "id": "nwhl-glass-19",
+      "label": "Glass tiles '19",
+      "era": "2019",
+      "after": "Women's pro hockey league stream, 2019",
+      "sports": [
+        "hockey"
+      ],
+      "leagues": [
+        "PWHL"
+      ],
+      "networks": [],
+      "default_for": []
+    },
+    {
+      "id": "mma-bel-14",
+      "label": "Silver tab clock '14",
+      "era": "2014",
+      "after": "US MMA promotion's fight clock on cable, 2014",
+      "sports": [
+        "mma"
+      ],
+      "leagues": [
+        "UFC"
+      ],
+      "networks": [
+        "Spike"
+      ],
+      "default_for": [],
+      "theme": "Bellator 2014-17"
+    },
+    {
+      "id": "mma-bel-17",
+      "label": "Teal clock '17",
+      "era": "2017",
+      "after": "US MMA promotion's fight bug, 2017",
+      "sports": [
+        "mma"
+      ],
+      "leagues": [
+        "UFC"
+      ],
+      "networks": [
+        "Spike",
+        "Paramount"
+      ],
+      "default_for": [],
+      "theme": "Bellator 2014-17"
+    },
+    {
+      "id": "mma-pfl-23",
+      "label": "Corner box '23",
+      "era": "2023",
+      "after": "MMA league fight box, 2023",
+      "sports": [
+        "mma"
+      ],
+      "leagues": [
+        "UFC"
+      ],
+      "networks": [
+        "ESPN"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "mma-sf-10",
+      "label": "Red clock box '10",
+      "era": "2010",
+      "after": "US premium cable MMA fight clock, 2010",
+      "sports": [
+        "mma"
+      ],
+      "leagues": [
+        "UFC"
+      ],
+      "networks": [
+        "Showtime",
+        "CBS"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "mma-ufc-05",
+      "label": "Octagon clock '05",
+      "era": "2005",
+      "after": "Leading MMA promotion's fight clock, 2005",
+      "sports": [
+        "mma"
+      ],
+      "leagues": [
+        "UFC"
+      ],
+      "networks": [
+        "Spike"
+      ],
+      "default_for": [],
+      "theme": "UFC clocks 2005-13"
+    },
+    {
+      "id": "mma-ufc-13",
+      "label": "Red capsule '13",
+      "era": "2013",
+      "after": "Leading MMA promotion's fight clock, 2013",
+      "sports": [
+        "mma"
+      ],
+      "leagues": [
+        "UFC"
+      ],
+      "networks": [
+        "FS1",
+        "FOX"
+      ],
+      "default_for": [],
+      "theme": "UFC clocks 2005-13"
+    },
+    {
+      "id": "mma-ufc-21",
+      "label": "Round bars '21",
+      "era": "2021",
+      "after": "Leading MMA promotion's fight strip, 2021",
+      "sports": [
+        "mma"
+      ],
+      "leagues": [
+        "UFC"
+      ],
+      "networks": [
+        "ESPN",
+        "ABC"
+      ],
+      "default_for": [],
+      "theme": "UFC fight strips 2021-26"
+    },
+    {
+      "id": "mma-ufc-22",
+      "label": "Fight strip '22",
+      "era": "2022",
+      "after": "Leading MMA promotion's fight strip, 2022-25",
+      "sports": [
+        "mma"
+      ],
+      "leagues": [
+        "UFC"
+      ],
+      "networks": [
+        "ESPN",
+        "ESPN+"
+      ],
+      "default_for": [],
+      "theme": "UFC fight strips 2021-26"
+    },
+    {
+      "id": "mma-ufc-26",
+      "label": "Fight strip '26",
+      "era": "2026",
+      "after": "Leading MMA promotion's fight strip, 2026",
+      "sports": [
+        "mma"
+      ],
+      "leagues": [
+        "UFC"
+      ],
+      "networks": [
+        "Paramount+",
+        "CBS"
+      ],
+      "default_for": [
+        "UFC",
+        "mma"
+      ],
+      "theme": "UFC fight strips 2021-26"
+    },
+    {
+      "id": "vb-au-22",
+      "label": "Pro bar '22",
+      "era": "2022",
+      "after": "US women's pro volleyball bar, 2022",
+      "sports": [
+        "volleyball"
+      ],
+      "leagues": [
+        "NCAAVB",
+        "NCAAVBW"
+      ],
+      "networks": [],
+      "default_for": []
+    },
+    {
+      "id": "vb-btn-15",
+      "label": "Slim bar '15",
+      "era": "2015",
+      "after": "US college conference network volleyball bar, 2015",
+      "sports": [
+        "volleyball"
+      ],
+      "leagues": [
+        "NCAAVB",
+        "NCAAVBW"
+      ],
+      "networks": [
+        "BTN"
+      ],
+      "default_for": [],
+      "theme": "Big Ten volleyball 2015-26"
+    },
+    {
+      "id": "vb-btn-26",
+      "label": "Twin panels '26",
+      "era": "2026",
+      "after": "US college conference network volleyball bar, 2026",
+      "sports": [
+        "volleyball"
+      ],
+      "leagues": [
+        "NCAAVB",
+        "NCAAVBW"
+      ],
+      "networks": [
+        "BTN",
+        "B1G+"
+      ],
+      "default_for": [],
+      "theme": "Big Ten volleyball 2015-26"
+    },
+    {
+      "id": "vb-espn-15",
+      "label": "Chrome bar '15",
+      "era": "2015",
+      "after": "US college volleyball championship bar, 2015",
+      "sports": [
+        "volleyball"
+      ],
+      "leagues": [
+        "NCAAVB",
+        "NCAAVBW"
+      ],
+      "networks": [
+        "ESPN"
+      ],
+      "default_for": [],
+      "theme": "ESPN college volleyball 2015-25"
+    },
+    {
+      "id": "vb-espn-23",
+      "label": "Light bar '23",
+      "era": "2023",
+      "after": "US college volleyball bar, 2023-25",
+      "sports": [
+        "volleyball"
+      ],
+      "leagues": [
+        "NCAAVB",
+        "NCAAVBW"
+      ],
+      "networks": [
+        "ESPN",
+        "ABC"
+      ],
+      "default_for": [
+        "NCAAVB",
+        "NCAAVBW",
+        "volleyball"
+      ],
+      "theme": "ESPN college volleyball 2015-25"
+    },
+    {
+      "id": "vb-lovb-26",
+      "label": "Pill board '26",
+      "era": "2026",
+      "after": "US women's pro volleyball board, 2026",
+      "sports": [
+        "volleyball"
+      ],
+      "leagues": [
+        "NCAAVB",
+        "NCAAVBW"
+      ],
+      "networks": [],
+      "default_for": []
+    },
+    {
+      "id": "vb-oly-08",
+      "label": "Navy sets box '08",
+      "era": "2008",
+      "after": "Summer Games world feed volleyball box, 2008",
+      "sports": [
+        "volleyball"
+      ],
+      "leagues": [
+        "NCAAVB",
+        "NCAAVBW"
+      ],
+      "networks": [],
+      "default_for": [],
+      "theme": "Olympic volleyball 2008-24"
+    },
+    {
+      "id": "vb-oly-24",
+      "label": "Mint rows '24",
+      "era": "2024",
+      "after": "Summer Games world feed volleyball box, 2024",
+      "sports": [
+        "volleyball"
+      ],
+      "leagues": [
+        "NCAAVB",
+        "NCAAVBW"
+      ],
+      "networks": [],
+      "default_for": [],
+      "theme": "Olympic volleyball 2008-24"
+    },
+    {
+      "id": "cricket-ipl-08",
+      "label": "Red slash '08",
+      "era": "2008",
+      "after": "Indian T20 league world feed, 2008",
+      "sports": [
+        "cricket"
+      ],
+      "leagues": [
+        "IPL"
+      ],
+      "networks": [
+        "SONY MAX"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "cricket-fox-12",
+      "label": "Slash bar '12",
+      "era": "2011-12",
+      "after": "Australian T20 league on pay TV, 2011-12",
+      "sports": [
+        "cricket"
+      ],
+      "leagues": [
+        "BBL"
+      ],
+      "networks": [
+        "FOX SPORTS"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "cricket-ss-14",
+      "label": "Crest bar '14",
+      "era": "2014",
+      "after": "Test cricket on South African pay TV, 2014",
+      "sports": [
+        "cricket"
+      ],
+      "leagues": [
+        "IPL",
+        "BBL"
+      ],
+      "networks": [
+        "SUPERSPORT"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "cricket-icc-15",
+      "label": "Prism box '15",
+      "era": "2015",
+      "after": "Men's 50-over world championship world feed, 2015",
+      "sports": [
+        "cricket"
+      ],
+      "leagues": [
+        "IPL",
+        "BBL"
+      ],
+      "networks": [],
+      "default_for": []
+    },
+    {
+      "id": "cricket-ten-16",
+      "label": "Ball bar '16",
+      "era": "2016",
+      "after": "Australian T20 league on free-to-air TV, 2016",
+      "sports": [
+        "cricket"
+      ],
+      "leagues": [
+        "BBL"
+      ],
+      "networks": [
+        "TEN"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "cricket-fox-21",
+      "label": "Three panel '21",
+      "era": "2021",
+      "after": "Test cricket on Australian pay TV, 2021",
+      "sports": [
+        "cricket"
+      ],
+      "leagues": [
+        "IPL",
+        "BBL"
+      ],
+      "networks": [
+        "FOX CRICKET",
+        "KAYO"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "cricket-sky-23",
+      "label": "Long strip '23",
+      "era": "2023",
+      "after": "Test cricket on British pay TV, 2023",
+      "sports": [
+        "cricket"
+      ],
+      "leagues": [
+        "IPL",
+        "BBL"
+      ],
+      "networks": [
+        "SKY SPORTS"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "cricket-nine-06",
+      "label": "Green box '06",
+      "era": "2006",
+      "after": "Test cricket on Australian free-to-air TV, 2006",
+      "sports": [
+        "cricket"
+      ],
+      "leagues": [
+        "IPL",
+        "BBL"
+      ],
+      "networks": [
+        "NINE"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "afl-nine-04",
+      "label": "Shield box '04",
+      "era": "2004",
+      "after": "Australian football on free-to-air TV, 2004",
+      "sports": [
+        "australian-football"
+      ],
+      "leagues": [
+        "AFL"
+      ],
+      "networks": [
+        "NINE"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "afl-ten-04",
+      "label": "Grid box '04",
+      "era": "2004",
+      "after": "Australian football on the other free-to-air network, 2004",
+      "sports": [
+        "australian-football"
+      ],
+      "leagues": [
+        "AFL"
+      ],
+      "networks": [
+        "TEN"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "afl-seven-06",
+      "label": "Thin bar '06",
+      "era": "2006",
+      "after": "Australian football on free-to-air and pay TV, 2006",
+      "sports": [
+        "australian-football"
+      ],
+      "leagues": [
+        "AFL"
+      ],
+      "networks": [
+        "SEVEN",
+        "FOX FOOTY"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "afl-seven-10",
+      "label": "Stack box '10",
+      "era": "2010",
+      "after": "Australian football on free-to-air TV, 2010",
+      "sports": [
+        "australian-football"
+      ],
+      "leagues": [
+        "AFL"
+      ],
+      "networks": [
+        "SEVEN"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "afl-seven-15",
+      "label": "Dark box '15",
+      "era": "2015",
+      "after": "Australian football on free-to-air and pay TV, 2015",
+      "sports": [
+        "australian-football"
+      ],
+      "leagues": [
+        "AFL"
+      ],
+      "networks": [
+        "SEVEN",
+        "FOX FOOTY"
+      ],
+      "default_for": []
+    },
+    {
+      "id": "afl-seven-21",
+      "label": "Logo box '21",
+      "era": "2021-23",
+      "after": "Australian football on free-to-air TV, 2021-23: gold clock",
+      "sports": [
+        "australian-football"
+      ],
+      "leagues": [
+        "AFL"
+      ],
+      "networks": [
+        "SEVEN"
+      ],
+      "default_for": [],
+      "theme": "Seven and Fox Footy box 2021-23"
+    },
+    {
+      "id": "afl-fox-23",
+      "label": "Logo box '23",
+      "era": "2023",
+      "after": "Australian football on pay TV, 2023: black clock",
+      "sports": [
+        "australian-football"
+      ],
+      "leagues": [
+        "AFL"
+      ],
+      "networks": [
+        "FOX FOOTY",
+        "KAYO"
+      ],
+      "default_for": [],
+      "theme": "Seven and Fox Footy box 2021-23"
+    }
+  ],
+  "api": 1,
+  "event_logos": [
+    {
+      "sport": "golf",
+      "names": [
+        "masters tournament"
+      ],
+      "url": "https://upload.wikimedia.org/wikipedia/en/2/23/Masters_Logo.png",
+      "source": "Wikimedia: Masters Tournament",
+      "licence": "Fair use"
+    },
+    {
+      "sport": "golf",
+      "names": [
+        "pga championship"
+      ],
+      "url": "https://upload.wikimedia.org/wikipedia/en/5/5d/PGA_Championship.png",
+      "source": "Wikimedia: PGA Championship",
+      "licence": "Fair use"
+    },
+    {
+      "sport": "golf",
+      "names": [
+        "u.s. open"
+      ],
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/7/76/US_Open_%28Golf%29_Logo.png/500px-US_Open_%28Golf%29_Logo.png",
+      "source": "Wikimedia: U.S. Open (golf)",
+      "licence": "Fair use"
+    },
+    {
+      "sport": "golf",
+      "names": [
+        "the open"
+      ],
+      "url": "https://upload.wikimedia.org/wikipedia/en/d/d0/The_Open_Championship_logo.png",
+      "source": "Wikimedia: The Open Championship",
+      "licence": "Fair use"
+    },
+    {
+      "sport": "golf",
+      "names": [
+        "the players championship",
+        "players championship"
+      ],
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/5/5d/ThePlayersChampionshipLogo.png/500px-ThePlayersChampionshipLogo.png",
+      "source": "Wikimedia: The Players Championship",
+      "licence": "Fair use"
+    },
+    {
+      "sport": "golf",
+      "names": [
+        "tour championship"
+      ],
+      "url": "https://upload.wikimedia.org/wikipedia/en/8/8e/Tour_Championship_Logo.png",
+      "source": "Wikimedia: Tour Championship",
+      "licence": "Fair use"
+    },
+    {
+      "sport": "golf",
+      "names": [
+        "ryder cup"
+      ],
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/d/da/RyderCupLogo.svg/500px-RyderCupLogo.svg.png",
+      "source": "Wikimedia: Ryder Cup",
+      "licence": "Fair use"
+    },
+    {
+      "sport": "golf",
+      "names": [
+        "presidents cup"
+      ],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/PresidentsCup--Primary.png/500px-PresidentsCup--Primary.png",
+      "source": "Wikimedia: Presidents Cup",
+      "licence": "CC BY-SA 4.0"
+    },
+    {
+      "sport": "golf",
+      "names": [
+        "the chevron championship",
+        "chevron championship"
+      ],
+      "url": "https://upload.wikimedia.org/wikipedia/en/2/2e/Chevron_Championship.png",
+      "source": "Wikimedia: Chevron Championship",
+      "licence": "Fair use"
+    },
+    {
+      "sport": "golf",
+      "names": [
+        "u.s. women's open"
+      ],
+      "url": "https://upload.wikimedia.org/wikipedia/en/6/6d/U.S._Women%27s_Open.png",
+      "source": "Wikimedia: U.S. Women's Open",
+      "licence": "Fair use"
+    },
+    {
+      "sport": "golf",
+      "names": [
+        "the amundi evian championship",
+        "the evian championship",
+        "evian championship"
+      ],
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/c/c3/The_Evian_Championship_logo.png/500px-The_Evian_Championship_logo.png",
+      "source": "Wikimedia: Evian Championship",
+      "licence": "Fair use"
+    },
+    {
+      "sport": "tennis",
+      "names": [
+        "australian open"
+      ],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Australian_Open_Logo_2017.svg/500px-Australian_Open_Logo_2017.svg.png",
+      "source": "Wikimedia: Australian Open",
+      "licence": "Public domain"
+    },
+    {
+      "sport": "tennis",
+      "names": [
+        "roland garros",
+        "french open"
+      ],
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/1/1d/Logo_Roland-Garros.svg/500px-Logo_Roland-Garros.svg.png",
+      "source": "Wikimedia: French Open",
+      "licence": "Fair use"
+    },
+    {
+      "sport": "tennis",
+      "names": [
+        "wimbledon"
+      ],
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/b9/Wimbledon.svg/500px-Wimbledon.svg.png",
+      "source": "Wikimedia: Wimbledon Championships",
+      "licence": "Fair use"
+    },
+    {
+      "sport": "tennis",
+      "names": [
+        "us open"
+      ],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Usopen-horizontal-logo.svg/500px-Usopen-horizontal-logo.svg.png",
+      "source": "Wikimedia: US Open (tennis)",
+      "licence": "Public domain"
+    },
+    {
+      "sport": "tennis",
+      "names": [
+        "nitto atp finals",
+        "atp finals"
+      ],
+      "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Nitto_ATP_Finals_logo.jpg",
+      "source": "Wikimedia: ATP Finals",
+      "licence": "CC BY-SA 4.0"
+    },
+    {
+      "sport": "tennis",
+      "names": [
+        "davis cup"
+      ],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Logo_Davis_Cup.svg/500px-Logo_Davis_Cup.svg.png",
+      "source": "Wikimedia: Davis Cup",
+      "licence": "Public domain"
+    },
+    {
+      "sport": "tennis",
+      "names": [
+        "billie jean king cup"
+      ],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Billie_Jean_King_Cup_Logo.svg/500px-Billie_Jean_King_Cup_Logo.svg.png",
+      "source": "Wikimedia: Billie Jean King Cup",
+      "licence": "Public domain"
+    },
+    {
+      "sport": "tennis",
+      "names": [
+        "bnp paribas open"
+      ],
+      "url": "https://upload.wikimedia.org/wikipedia/en/9/92/Bnpparibasopen.jpg",
+      "source": "Wikimedia: Indian Wells Open",
+      "licence": "Fair use"
+    },
+    {
+      "sport": "basketball",
+      "names": [
+        "nba finals"
+      ],
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/The_NBA_Finals_logo.svg/500px-The_NBA_Finals_logo.svg.png",
+      "source": "Wikimedia: The NBA Finals logo",
+      "licence": "see the file page"
+    },
+    {
+      "sport": "basketball",
+      "names": [
+        "nba playoffs"
+      ],
+      "url": "https://thumb.wikimedia.org/wikipedia/en/thumb/4/44/NBA_Playoffs_logo_%282018%29.svg/500px-NBA_Playoffs_logo_%282018%29.svg.png",
+      "source": "Wikimedia: NBA Playoffs logo (2018)",
+      "licence": "Fair use"
+    }
+  ]
+}

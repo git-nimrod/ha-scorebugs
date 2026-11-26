@@ -1,0 +1,21 @@
+{
+  "domain": "scorebugs",
+  "name": "Scorebugs",
+  "codeowners": [
+    "@git-nimrod"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "http",
+    "websocket_api",
+    "frontend",
+    "file_upload"
+  ],
+  "documentation": "https://github.com/git-nimrod/ha-scorebugs",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/git-nimrod/ha-scorebugs/issues",
+  "requirements": [],
+  "single_config_entry": true,
+  "version": "1.0.0"
+}

@@ -1,0 +1,220 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Scorebugs",
+        "description": "Adds TV-style scorebugs to Home Assistant: a Scorebug card for any dashboard, and the bugs Glass Panes uses when it is installed. After adding it, open Configure to pick the teams you follow."
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "Scorebugs is already set up."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "My teams",
+        "description": "Following: {teams}. Each team you follow gets a sensor with its current game, and only the leagues of your teams are ever asked for scores.",
+        "menu_options": {
+          "add_team": "Add a team",
+          "team_logo": "Team logo",
+          "remove_team": "Remove teams",
+          "my_mark": "Your own mark",
+          "looks": "Scorebug looks",
+          "card_defaults": "How bugs look on cards"
+        }
+      },
+      "add_team": {
+        "title": "Add a team",
+        "data": {
+          "sport": "Sport"
+        }
+      },
+      "add_team_league": {
+        "title": "Add a team: {sport}",
+        "data": {
+          "league": "League"
+        }
+      },
+      "pick_team": {
+        "title": "Pick from {league}",
+        "data": {
+          "team": "Team, player or event",
+          "logo_style": "Logo version"
+        },
+        "data_description": {
+          "logo_style": "Which of the team's logos the scorebugs show. When a team has no logo of that kind, the closest one is used.",
+          "team": "For golf, racing and UFC you can follow the whole event; for tennis, golf, racing and UFC you can follow one person from the current field."
+        }
+      },
+      "team_logo": {
+        "title": "Team logo",
+        "description": "Pick the team whose logo you want to change.",
+        "data": {
+          "team": "Team"
+        }
+      },
+      "team_logo_pick": {
+        "title": "Logo for {team}",
+        "description": "ESPN's usual logo is the default. ESPN also has these for {team} (open one to see it):\n\n{links}\n\nOr choose **My own picture** and upload one (PNG, WebP or JPG, up to 2 MB; square with a clear background looks best). It stays on your Home Assistant.",
+        "data": {
+          "logo": "Logo",
+          "file": "Your picture"
+        },
+        "data_description": {
+          "file": "Only for My own picture. Leave empty to keep the picture you used before, or to use one you put in /config/scorebugs/logos/ as {file_name}."
+        }
+      },
+      "remove_team": {
+        "title": "Remove teams",
+        "data": {
+          "teams": "Teams to stop following"
+        }
+      },
+      "my_mark": {
+        "title": "Your own mark",
+        "description": "{now} Bugs show the Home Assistant logo where the TV network's logo was. A card or pane can show your own picture there instead (set its mark to **Your own picture**). Upload a PNG, WebP or JPG up to 2 MB; a clear background looks best. It stays on your Home Assistant, in /config/scorebugs/logos/ as {file_name}.",
+        "data": {
+          "file": "Your picture",
+          "remove": "Remove my picture"
+        },
+        "data_description": {
+          "remove": "Bugs set to your own picture then show the Home Assistant logo."
+        }
+      },
+      "looks": {
+        "title": "Scorebug looks",
+        "description": "Pick which look to set: the overall one, or one team's. Automations and dashboards can change these too, with the Look entities (select.scorebugs_look and one per team).",
+        "data": {
+          "which": "Look for"
+        }
+      },
+      "look_pick": {
+        "title": "Look for {who}",
+        "description": "The bug the cards draw these games with. A card set to a bug of its own keeps it. When two of your teams play each other, the home team's look is used.",
+        "data": {
+          "look": "Look"
+        }
+      },
+      "card_defaults": {
+        "title": "How bugs look on cards",
+        "description": "Defaults for every Scorebug card (and Glass Panes panes). A card that sets one of these itself keeps its own.",
+        "data": {
+          "bug_logos": "Team logos",
+          "bug_marks": "Marks on the bug",
+          "bug_mark": "In the network's spot",
+          "bug_mark_style": "League logo version",
+          "bug_tv": "Picture",
+          "bug_logo_look": "Team logos look",
+          "bug_dress": "Playoff look",
+          "bug_lower": "Strip under the bug",
+          "bug_texture": "Panel texture",
+          "bug_ink": "Text off the bug"
+        }
+      }
+    },
+    "abort": {
+      "too_many": "You follow 30 teams already. Remove one first.",
+      "no_teams": "Could not get that league's teams from ESPN right now. Try again in a minute."
+    },
+    "error": {
+      "not_image": "That file isn't a PNG, WebP or JPG picture of 2 MB or less.",
+      "need_file": "Upload a picture, or choose ESPN's logo.",
+      "need_mark_file": "Upload a picture, or tick Remove my picture."
+    }
+  },
+  "selector": {
+    "logo_style": {
+      "options": {
+        "primary": "Primary",
+        "dark": "Dark (for dark backgrounds)",
+        "secondary": "Secondary",
+        "white": "White",
+        "secondary-white": "Secondary, white",
+        "black": "Black"
+      }
+    },
+    "bug_logos": {
+      "options": {
+        "auto": "Each team's My teams choice",
+        "primary": "Primary",
+        "dark": "Dark",
+        "secondary": "Secondary",
+        "white": "White",
+        "secondary-white": "Secondary, white",
+        "black": "Black"
+      }
+    },
+    "bug_marks": {
+      "options": {
+        "both": "League and Home Assistant",
+        "league": "League only",
+        "ha": "Home Assistant only",
+        "none": "None"
+      }
+    },
+    "bug_mark": {
+      "options": {
+        "ha": "Home Assistant logo",
+        "league": "The league's logo",
+        "own": "Your own picture (Your own mark)",
+        "none": "Nothing (left empty)"
+      }
+    },
+    "bug_mark_style": {
+      "options": {
+        "auto": "Automatic (reads on the bug)",
+        "colour": "Colour",
+        "dark": "For dark backgrounds",
+        "white": "White"
+      }
+    },
+    "bug_tv": {
+      "options": {
+        "auto": "The bug's own",
+        "clean": "Sharp",
+        "soft": "Old TV",
+        "vhs": "VHS tape"
+      }
+    },
+    "bug_logo_look": {
+      "options": {
+        "sharp": "Sharp",
+        "vintage": "Vintage (slightly soft)"
+      }
+    },
+    "bug_dress": {
+      "options": {
+        "auto": "By the season and round",
+        "regular": "Regular season",
+        "playoffs": "Playoffs",
+        "conf-finals": "Conference finals",
+        "finals": "Finals"
+      }
+    },
+    "bug_lower": {
+      "options": {
+        "show": "Show",
+        "hide": "Hide (on bugs that have one)"
+      }
+    },
+    "bug_texture": {
+      "options": {
+        "auto": "The bug's own",
+        "none": "None",
+        "mesh": "Wire mesh",
+        "carbon": "Carbon weave",
+        "brushed": "Brushed metal",
+        "plays": "Football plays",
+        "graffiti": "Graffiti"
+      }
+    },
+    "bug_ink": {
+      "options": {
+        "auto": "Automatic (reads on the card)",
+        "light": "Light",
+        "dark": "Dark"
+      }
+    }
+  }
+}
